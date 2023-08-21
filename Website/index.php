@@ -9,6 +9,15 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <title>Login</title>
+    <style>
+        body {
+            background-image: url('sunrise-3562745_1280.jpg');
+            /* Допълнителни стилове за позициониране на фоновата снимка */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 <body>
     <div class="container">

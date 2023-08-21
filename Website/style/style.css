@@ -5,9 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
-body{
-    background: #e4e9f7;
-}
+
 .container{
     display: flex;
     align-items: center;
@@ -15,7 +13,7 @@ body{
     min-height: 90vh;
 }
 .box{
-    background: #fdfdfd;
+   background-color: rgba(0, 0, 0, 0.3);;
     display: flex;
     flex-direction: column;
     padding: 25px 25px;
