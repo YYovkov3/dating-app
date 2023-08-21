@@ -68,7 +68,7 @@ session_start();
                 $stmt->close();
             } else {
             ?>
-            <header class="title">Login</header>
+            <header class="title">Вход</header>
             <form action="" method="post">
                 <div class="field input">
                     <label for="email">Email</label>
@@ -76,12 +76,12 @@ session_start();
                 </div>
 
                 <div class="field input">
-                    <label for="password">Password</label>
+                    <label for="password">Парола</label>
                     <input type="password" name="password" id="password" autocomplete="off" required>
                 </div>
 
                 <div class="field">
-                    <input type="submit" class="btn" name="submit" value="Login" required>
+                    <input type="submit" class="btn" name="submit" value="Вход" required>
                 </div>
                 <div class="links">
                     Don't have an account? <a href="register.php">Sign Up Now</a>
