@@ -12,7 +12,6 @@ session_start();
     <style>
         body {
             background-image: url('sunrise-3562745_1280.jpg');
-            /* Допълнителни стилове за позициониране на фоновата снимка */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -69,7 +68,7 @@ session_start();
                 $stmt->close();
             } else {
             ?>
-            <header>Login</header>
+            <header class="title">Login</header>
             <form action="" method="post">
                 <div class="field input">
                     <label for="email">Email</label>
