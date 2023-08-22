@@ -88,6 +88,27 @@ session_start();
                 </div>
             </form>
         </div>
+        <button class="chatbot-toggler">
+        <span class="material-symbols-outlinded"><i class="fa-regular fa-comment"></i></span>
+        <span class="material-symbols-outlinded"><i class="fa-solid fa-xmark"></i></span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class="close-btn lmaterial-symbols-outlinded"><i class="fa-solid fa-xmark"></i></span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlinded"><i class="fa-solid fa-robot"></i></span>
+                <p> Hi there <br> How can I help tou today?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." required></textarea>
+            <span id="send-btn" class="material-symbols-outlinde"><i class="fa-solid fa-share"></i></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
         <?php } ?>
     </div>
 </body>
