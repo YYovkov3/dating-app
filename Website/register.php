@@ -39,8 +39,8 @@ if(isset($_POST['submit'])){
     }
 
    
-    $verify_query = mysqli_query($conn, "SELECT Email FROM users WHERE Email='$email'");
-    if(mysqli_num_rows($verify_query) != 0) {
+    #$verify_query = mysqli_query($conn, "SELECT Email FROM users WHERE Email='$email'");
+    #if(mysqli_num_rows($verify_query) != 0) {
         echo "<div class='message'>
                   <p>This email is used, Try another one.</p>
               </div> <br>";
