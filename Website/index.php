@@ -84,7 +84,7 @@ session_start();
                     <input type="submit" class="btn" name="submit" value="Вход" required>
                 </div>
                 <div class="links">
-                    Don't have an account? <a href="register.php">Sign Up Now</a>
+                    <p class="create">Нямате съществуващ акаунт? <a href="register.php"> Регистрирай се</a></p>
                 </div>
             </form>
         </div>
